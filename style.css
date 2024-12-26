@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    width: 100vw;
+    height: 272vh;
+    background-color: rgba(236, 233, 233, 0.308);
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+
+
+}
+
+svg {
+    color: white;
+}
+
+nav {
+    background-color: black;
+}
+
+.icon {
+    display: inline;
+    color: rgb(44, 202, 44);
+    padding-left: 280px;
+}
+
+p {
+    color: white;
+    display: inline;
+
+}
+
+.call-me-back {
+    background-color: rgb(44, 202, 44);
+    color: black;
+    border: none;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 4px;
+
+
+
+}
+
+.panacloud {
+    background-color: white;
+    padding: 3px;
+    display: flex;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+ul {
+    margin-left: 300px;
+    padding-top: 9px;
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:focus {
+    font-weight: 500;
+    color: rgb(44, 202, 44);
+}
+
+.portifolio {
+    width: 100%;
+    height: 13%;
+    background-color: rgb(44, 202, 44);
+    text-align: center;
+    color: white;
+}
+
+.experts {
+    padding-top: 50px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+
+}
+
+button {
+    color: black;
+    background-color: rgb(235, 235, 8);
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.advantages {
+    width: 100%;
+    height: 17%;
+    background-color: whitesmoke;
+
+}
+
+.head {
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.whyus {
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+
+}
+
+.thumb {
+    
+    display: inline-block;
+   padding: 60px;
+   margin-left: 30px;
+
+}
+
+.bulb {
+    height: 5em;
+    width: 5em;
+    background-color: rgba(128, 128, 128, 0.466);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    
+    
+
+}
+
+.idea {
+    color: rgb(4, 131, 4);
+    height: 50px;
+    width: 50px;
+    padding-left: 14px;
+    padding-top: 13px;
+
+
+}
+.aboutus{
+height:400px ;
+text-align: center;
+background-color: white;
+display: flex;
+text-align: left;
+
+}
+.about{
+    margin-bottom: 50px;
+    margin-left: 500px;
+}
+.us{
+    height: 300px;
+    width: 50%;
+    padding-top: 60px;
+
+}
+.para{
+    margin-top: 40px;
+}
+
+
+.our-services {
+    background-color: white;
+    height: 300px;
+    padding-top: 9px;
+    
+
+}
+.service1{
+    text-align: center;
+}
+.service {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    
+}
+
+.star {
+    background-color: rgba(128, 128, 128, 0.432);
+    height: 160px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.child {
+    background-color: rgb(243, 243, 31);
+    height: 35px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 25px;
+    left: 60px;
+
+}
+.bk{
+    margin-top: 35px;
+    text-align: left;
+    padding-right: 9px;
+    font-size: 15px;
+}
+a{
+    font-size: 10px;
+    text-align: center;
+}
+.star1 {
+    color: orangered;
+    height: 25px;
+    width: 25px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+.our-portfolio {
+    background-color: black;
+    height: 500px;
+   text-align: center;
+    padding-top: 9px;
+}
+
+.pic {
+    height: 350px;
+    width: 1300px;
+    
+}
+
+
+
+.web {
+
+    padding: 3px;
+    text-transform: capitalize;
+    padding-top: 15px;
+
+
+}
+
+.design {
+    color: white;
+    font-size: 20px;
+  text-align: center;
+    padding-top: 40px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.down-arrow {
+    text-align: center;
+}
+
+.arrow {
+    color: rgba(128, 128, 128, 0.432);
+    height: 50px;
+    width: 50px;
+}
+
+.our-process {
+    background-color: white;
+    height: 230px;
+    text-align: center;
+    padding-top: 9px;
+}
+.sm {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.pen {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    background-color: orange;
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+    color: rgb(27, 25, 25);
+    height: 15px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.mb {
+    color: rgb(139, 199, 49);
+    height: 40px;
+    width: 40px;
+    padding-top: 8px;
+    padding-left: 13px;
+    padding-bottom: 10px;
+}
+
+
+.people {
+    background-color: rgba(189, 185, 185, 0.432);
+    height: 240px;
+    text-align: center;
+    padding-top: 9px;
+}
+table{
+    border-collapse: collapse;
+    margin: 30px;
+}
+.tr{
+border-bottom: 2px solid rgb(0, 0, 0);
+}
+.td{
+   border-left: 1px solid black;
+   padding-left: 15px;
+}
+.tbl{
+    border-bottom: none;
+}
+.td1{
+    border-left: none;
+}
+
+.skills {
+    background-color: white;
+    height: 230px;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.img {
+    padding-top: 15px;
+}
+
+.new-project {
+
+    height: 13%;
+    background-color: rgb(44, 202, 44);
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.h2{
+    font-weight: bolder;
+  letter-spacing: 4px;
+    word-spacing: 15px;
+    margin-bottom: 20px;
+}
+input{
+    padding: 8px;
+}
+.req{
+    background-color: rgb(245, 245, 7);
+    padding: 8px;
+    margin-left: 15px;
+}
+.lorem{
+    margin-top: 20px;
+}
+.contact {
+    background-color: white;
+    height: 450px;
+    text-align: center;
+    padding-top: 9px;
+}
+.op{
+    color: gray;
+    height: 20px;
+    width: 20px;
+}
+.location {
+    color: rgb(44, 202, 44);
+    height: 15px;
+    width: 15px;
+}
+
+.location1 {
+    padding-top: 10px;
+}
+
+.map {
+    padding-top: 10px;
+    border: 1px solid black;
+    height: 60%;
+    width: 1200px;
+}
+
+.last {
+    background-color: rgb(44, 202, 44);
+    height: 14%;
+    
+}
+.end{
+    height: 15%;
+   background-color:rgb(44, 202, 44); 
+}
+.footer{
+display: flex;
+justify-content: space-between;
+}
+.items{
+    height: 200px;
+    width: 300px;
+    padding-top: 20px;
+   
+}
+.id{
+    margin-top: 15px;
+}
+.ss{
+    font-size: 20px;
+}
+.line{
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+}
+.follow{
+    padding-top: 30px;
+}
+.tw{
+    display: flex;
+}
+.fb{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.xm{
+    padding-top: 8px;
+    padding-left: 5px;
+}
+.line{
+    border-left: 1px solid rgb(51, 50, 50);
+}
